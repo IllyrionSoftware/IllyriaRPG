@@ -1,5 +1,5 @@
-name: Illyrian's CI/CD
-run-name: "Illyrian's CI/CD"
+name: Illyrion's CI/CD
+run-name: "Illyrion's CI/CD"
 
 on:
   push:
@@ -60,46 +60,6 @@ jobs:
         with:
           name: package
           path: dist/*
-
-  test:
-    needs: [build]
-    runs-on: ubuntu-latest
-    environment:
-      name: ${{ github.ref_name }}
-    steps:
-      - id: download_package
-        name: Download Package
-        uses: actions/download-artifact@main
-        with:
-          name: package
-
-      - id: run_tests
-        name: Run Tests
-        run: python -m unittest discover
-
-  release:
-    needs: [build, test]
-    runs-on: ubuntu-latest
-    environment:
-      name: ${{ github.ref_name }}
-      url: ${{ steps.create_release.outputs.url }}
-    steps:
-      - id: download_package
-        name: Download Package
-        uses: actions/download-artifact@main
-        with:
-          name: package
-
-      - id: create_release
-        name: Create Release
-        uses: softprops/action-gh-release@master
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          draft: ${{ contains(github.event.head_commit.message, '.draft') }}
-          generate_release_notes: true
-          prerelease: ${{ contains(github.event.head_commit.message, '.pre') }}
-          tag_name: ${{ needs.build.outputs.VERSION }}
 
   publish:
     needs: [build, test, release]
