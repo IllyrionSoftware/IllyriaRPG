@@ -1,0 +1,16 @@
+CRecipes:
+  1d79eb87-5353-321c-b92f-72e26d57868d:
+    Type: Furnace
+    Result:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3839
+      type: LEATHER
+    Recipe:
+      '0':
+        item:
+          ==: org.bukkit.inventory.ItemStack
+          v: 3839
+          type: ROTTEN_FLESH
+        byItem: true
+    Cook: 60
+    Exp: 0.1

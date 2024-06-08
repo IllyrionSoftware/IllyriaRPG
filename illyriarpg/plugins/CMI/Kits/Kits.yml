@@ -1,0 +1,45 @@
+Starter:
+  Description:
+  - Default kit for starters.
+  CommandName: Starter
+  MaxUsages: 1
+  Commands:
+  - asConsole! msg! [playerName] &eYou just got &6{KITNAME} &ekit!
+  Conditions:
+  - cmi.kit.get
+  Group: default
+  Items:
+    '1':
+      v: 3465
+      type: STONE_SWORD
+    '2':
+      v: 3465
+      type: STONE_PICKAXE
+    '3':
+      v: 3465
+      type: STONE_AXE
+    '4':
+      v: 3465
+      type: STONE_SHOVEL
+    '5':
+      v: 3465
+      type: STONE_HOE
+    '6':
+      v: 3465
+      type: COOKED_BEEF
+      amount: 64
+    Helmet:
+      v: 3465
+      type: LEATHER_HELMET
+    Chest:
+      v: 3465
+      type: LEATHER_CHESTPLATE
+    Legs:
+      v: 3465
+      type: LEATHER_LEGGINGS
+    Boots:
+      v: 3465
+      type: LEATHER_BOOTS
+    OffHand:
+      v: 3465
+      type: SHIELD

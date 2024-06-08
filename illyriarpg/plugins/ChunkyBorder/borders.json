@@ -1,0 +1,38 @@
+{
+  "dim_resourceworld": {
+    "world": "dim_resourceworld",
+    "centerX": 0.0,
+    "centerZ": 0.0,
+    "radiusX": 1600.0,
+    "radiusZ": 1600.0,
+    "shape": "square",
+    "wrap": "none"
+  },
+  "dim_overworld": {
+    "world": "dim_overworld",
+    "centerX": 0.0,
+    "centerZ": 0.0,
+    "radiusX": 6400.0,
+    "radiusZ": 6400.0,
+    "shape": "square",
+    "wrap": "none"
+  },
+  "dim_endworld": {
+    "world": "dim_endworld",
+    "centerX": 0.0,
+    "centerZ": 0.0,
+    "radiusX": 3200.0,
+    "radiusZ": 3200.0,
+    "shape": "square",
+    "wrap": "none"
+  },
+  "dim_underworld": {
+    "world": "dim_underworld",
+    "centerX": 0.0,
+    "centerZ": 0.0,
+    "radiusX": 3200.0,
+    "radiusZ": 3200.0,
+    "shape": "square",
+    "wrap": "none"
+  }
+}

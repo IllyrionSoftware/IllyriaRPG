@@ -4,6 +4,7 @@ run-name: "Illyrion's CI/CD"
 on:
   push:
     branches: [main]
+    paths: ["illyriarpg/**"]
   workflow_dispatch:
 
 permissions:
@@ -20,67 +21,17 @@ jobs:
     if: github.event_name == 'workflow_dispatch' || contains(github.event.head_commit.message, '.deploy')
     environment:
       name: ${{ github.ref_name }}
-      url: ${{ steps.upload_package.outputs.artifact-url }}
-    outputs:
-      VERSION: ${{ steps.get_version.outputs.VERSION }}
     steps:
       - id: checkout
         name: Checkout
         uses: actions/checkout@main
 
-      - id: setup_python
-        name: Setup Python
-        uses: actions/setup-python@main
+      - id: sync_files
+        name: Sync files
+        uses: SamKirkland/FTP-Deploy-Action@master
         with:
-          python-version: "3.12"
-
-      - id: cache_dependencies
-        name: Cache Dependencies
-        uses: actions/cache@main
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-          restore-keys: ${{ runner.os }}-pip-
-
-      - id: install_dependencies
-        name: Install Dependencies
-        run: pip install -e .
-
-      - id: get_version
-        name: Get Version
-        run: echo "VERSION=$(python setup.py --version)" >> $GITHUB_OUTPUT
-
-      - id: build_package
-        name: Build Package
-        run: python -m build
-
-      - id: upload_package
-        name: Upload Package
-        uses: actions/upload-artifact@main
-        with:
-          name: package
-          path: dist/*
-
-  publish:
-    needs: [build, test, release]
-    runs-on: ubuntu-latest
-    environment:
-      name: ${{ github.ref_name }}
-      url: ${{ steps.upload_to_pypi.outputs.url }}
-    permissions:
-      id-token: write
-    steps:
-      - id: download_package
-        name: Download Package
-        uses: actions/download-artifact@main
-        with:
-          name: package
-          path: dist
-
-      - id: list_dist_contents
-        name: List dist contents
-        run: ls dist/
-
-      - id: upload_to_pypi
-        name: Upload to PyPI
-        uses: pypa/gh-action-pypi-publish@release/v1.8
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./temp/
+          server-dir: /

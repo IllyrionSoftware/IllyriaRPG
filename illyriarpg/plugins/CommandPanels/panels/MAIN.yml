@@ -1,0 +1,135 @@
+# |------------------------------------------------------------------------
+# |                       CommandPanels Template File
+# |                            By RockyHawk v1.1
+# | https://www.spigotmc.org/resources/command-panels-custom-guis.67788/
+# |------------------------------------------------------------------------
+panels:
+  faq:
+    perm: default
+    rows: 3
+    title: '&6&lFAQ'
+    commands:
+    - faq
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '11':
+        material: BLAZE_ROD
+        customdata: 1
+        stack: 1
+        name: '&6&lLands'
+        lore:
+        - '&8▶ &7Click the item to open &8◀'
+        - ''
+        - '&8✖ &3Claim, Protect, and Expand'        
+        commands:
+        - lands
+      '13':
+        material: BLAZE_ROD
+        customdata: 2
+        stack: 1
+        enchanted:
+        - true
+        name: '&6&lDimensions'
+        lore:
+        - '&8▶ &7Click the item to open &8◀'
+        - ''
+        - '&8✖ &3Teleport, Explore, and Discover'        
+        commands:
+        - cp dimensions
+      '15':
+        material: BLAZE_ROD
+        customdata: 3
+        stack: 1
+        name: '&6&lAdapt &7&l| &4&lCOMING SOON'
+        lore:
+        - '&8▶ &7Click the item to open &8◀'
+        - ''
+        - '&8✖ &3Leveling, Skills, and Abilities'
+  dimensions:
+    perm: default
+    rows: 4
+    title: '&6&lDimensions'
+    commands: 
+    - dims
+    empty: BLACK_STAINED_GLASS_PANE
+    item:
+      '10':
+        material: STICK
+        customdata: 1
+        stack: 1
+        name: '&2&lThe Overworld'
+        lore: 
+        - '&8▶ &7Click the item to rtp &8◀'
+        - ''
+        - '&8✖ &7Information:'
+        - '   &3Environment: &6large_biomes'
+        - '   &3Gamemode: &dSURVIVAL'
+        - '   &3Size: &612800&8x&612800'   
+        - '   &3Difficulty: &4HARD'   
+        - '   &3Claims: &aTrue'
+        - '   &3PVP: &aTrue'
+        commands:
+        - op= tpp dim_overworld
+        - op= rtp
+      '12':
+        material: STICK
+        customdata: 1
+        stack: 1
+        name: '&1&lThe Resourceworld'
+        lore:
+        - '&8▶ &7Click the item to rtp &8◀'
+        - ''
+        - '&8✖ &7Information:'
+        - '   &3Environment: &6normal'
+        - '   &3Gamemode: &dSURVIVAL'
+        - '   &3Size: &61600&8x&61600'  
+        - '   &3Difficulty: &4HARD'  
+        - '   &3Claims: &cFalse'
+        - '   &3PVP: &cFalse'
+        commands:
+        - op= tpp dim_resourceworld
+        - op= rtp
+      '14':
+        material: STICK
+        customdata: 2
+        stack: 1
+        name: '&4&lThe Underworld'
+        lore: 
+        - '&8▶ &7Click the item to rtp &8◀'
+        - ''
+        - '&8✖ &7Information:'
+        - '   &3Environment: &6normal'
+        - '   &3Gamemode: &dSURVIVAL'
+        - '   &3Size: &63200&8x&63200'  
+        - '   &3Difficulty: &4HARD'  
+        - '   &3Claims: &cFalse'
+        - '   &3PVP: &aTrue'
+        commands:
+        - op= tpp dim_underworld
+        - op= rtp
+      '16':
+        material: STICK
+        customdata: 3
+        stack: 1
+        name: '&5&lThe Endworld'
+        lore: 
+        - '&8▶ &7Click the item to rtp &8◀'
+        - ''
+        - '&8✖ &7Information:'
+        - '   &3Environment: &6normal'
+        - '   &3Gamemode: &dSURVIVAL'
+        - '   &3Size: &63200&8x&63200'  
+        - '   &3Difficulty: &4HARD'   
+        - '   &3Claims: &cFalse'
+        - '   &3PVP: &aTrue'
+        commands:
+        - op= tpp dim_endworld
+        - op= rtp
+      '27':
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: '&c&lBack'
+        lore: 
+        - '&8✖ &7Go back to previous'
+        commands:
+        - cp faq

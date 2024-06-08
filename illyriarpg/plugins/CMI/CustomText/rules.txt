@@ -1,0 +1,22 @@
+<AutoPage><AutoAlias><NoReqPermission>
+&6]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[
+&6▶ &3Player Rules:
+&6▶ &301 &7| &cNo Griefing.
+&6▶ &302 &7| &cNo Spamming.
+&6▶ &303 &7| &cNo Advertising.
+&6▶ &304 &7| &cNo Cursing/No Constant Cursing.
+&6▶ &305 &7| &cNo Trolling/Flaming.
+&6▶ &306 &7| &cNo Asking for OP, Ranks, or Items.
+&6▶ &307 &7| &cRespect all Players.
+&6▶ &308 &7| &cObey Staff they are the Law Enforcers.
+&6▶ &309 &7| &cNo Racist or Sexist Remarks.
+&6▶ &310 &7| &cNo Mods/Hacks.
+&6▶ &311 &7| &cNo Full Caps Messages.
+&6▶ &312 &7| &cNo 1x1 Towers.
+&6▶ &313 &7| &cNo Builds Near Spawn.
+<NextPage>
+&6▶ &3Mod/Admin Rules:
+&6▶ &301 &7| &cBe Responsible with the power you are given as staff.
+&6▶ &302 &7| &cDo not spawn blocks or items for other players.
+&6▶ &303 &7| &cWhen Trading, only buy and sell legit items.
+&6▶ &305 &7| &cNo Power Abuse.
