@@ -11,6 +11,8 @@ panels:
     commands:
     - faq
     empty: BLACK_STAINED_GLASS_PANE
+    panelType:
+    - unmovable
     item:
       '11':
         material: BLAZE_ROD
@@ -20,7 +22,8 @@ panels:
         lore:
         - '&8▶ &7Click the item to open &8◀'
         - ''
-        - '&8✖ &3Claim, Protect, and Expand'        
+        - '&8✖ &3Claim, Protect, and Expand'  
+        - '   &7Shortcut: &6/lands'        
         commands:
         - lands
       '13':
@@ -33,7 +36,8 @@ panels:
         lore:
         - '&8▶ &7Click the item to open &8◀'
         - ''
-        - '&8✖ &3Teleport, Explore, and Discover'        
+        - '&8✖ &3Teleport, Explore, and Discover'
+        - '   &7Shortcut: &6/dims'           
         commands:
         - cp dimensions
       '15':
@@ -45,6 +49,7 @@ panels:
         - '&8▶ &7Click the item to open &8◀'
         - ''
         - '&8✖ &3Leveling, Skills, and Abilities'
+        - '   &7Shortcut: &6/adapt'   
   dimensions:
     perm: default
     rows: 4
@@ -52,6 +57,8 @@ panels:
     commands: 
     - dims
     empty: BLACK_STAINED_GLASS_PANE
+    panelType:
+    - unmovable
     item:
       '10':
         material: STICK
@@ -69,8 +76,7 @@ panels:
         - '   &3Claims: &aTrue'
         - '   &3PVP: &aTrue'
         commands:
-        - op= tpp dim_overworld
-        - op= rtp
+        - delay= 60 console= rt %cp-player-name% dim_overworld     
       '12':
         material: STICK
         customdata: 1
@@ -87,8 +93,7 @@ panels:
         - '   &3Claims: &cFalse'
         - '   &3PVP: &cFalse'
         commands:
-        - op= tpp dim_resourceworld
-        - op= rtp
+        - delay= 60 console= rt %cp-player-name% dim_resourceworld
       '14':
         material: STICK
         customdata: 2
@@ -105,8 +110,7 @@ panels:
         - '   &3Claims: &cFalse'
         - '   &3PVP: &aTrue'
         commands:
-        - op= tpp dim_underworld
-        - op= rtp
+        - delay= 60 console= rt %cp-player-name% dim_underworld
       '16':
         material: STICK
         customdata: 3
@@ -123,8 +127,7 @@ panels:
         - '   &3Claims: &cFalse'
         - '   &3PVP: &aTrue'
         commands:
-        - op= tpp dim_endworld
-        - op= rtp
+        - delay= 60 console= rt %cp-player-name% dim_endworld
       '27':
         material: RED_STAINED_GLASS_PANE
         stack: 1
