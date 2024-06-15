@@ -31,7 +31,6 @@
 # /isort off              Disable automatic sorting for the player's inventory
 # /isort help             Display help about the /isort (or /invsort) command
 
-
 ###############################
 #######   Permissions   #######
 ###############################
@@ -46,7 +45,6 @@
 #                            Available hotkeys are: shiftclick, middleclick, doubleclick, shiftrightclick,
 #                                                   leftclick, rightlick, outside
 
-
 ###############################
 #######  Placeholders   #######
 ###############################
@@ -55,7 +53,6 @@
 
 # %chestsort_sortingenabled%    - true if this player has automatic sorting enabled for containers
 # %chestsort_invsortingenabled% - true if this player has automatic sorting enabled for the player's inventory
-
 
 ############################
 ##### Default settings #####
@@ -204,7 +201,7 @@ additional-hotkeys:
 
 # Checks for updates (asynchronously).
 # When enabled, a message is printed in the console if a new
-# version has been found, and OPs will be notified when they join the server 
+# version has been found, and OPs will be notified when they join the server
 # When set to true, check for updates on startup and every X hours (see "check-interval" below)
 # When set to on-startup, only check on server startup
 # When set to false, don't check for updates
@@ -340,7 +337,7 @@ mute-protection-plugins: false
 # 6. Add that to the list below. You can also use advanced regexes, e.g. ".*[Bb]ack[Pp]ack.*" would blacklist all holders
 #    that contain the word "Backpack"
 blocked-inventory-holders-regex:
-- .*[Bb]ack[Pp]ack.*
+  - .*[Bb]ack[Pp]ack.*
 
 ##########################
 ##### Sorting Method #####
@@ -401,25 +398,25 @@ sorting-method: "{category},{itemsFirst},{name},{color},{customName}"
 # Some messages contain placeholders (%s). You must not remove those, or you will get exceptions in the console
 
 ##### You can edit these messages yourself or uncomment the existing translations (see below)
-message-when-using-chest: "&7Hint: Type &6/chestsort&7 to enable automatic chest sorting."
-message-when-using-chest2: "&7Hint: Type &6/chestsort&7 to disable automatic chest sorting."
-message-sorting-disabled: "&7Automatic chest sorting has been &cdisabled&7."
-message-sorting-enabled: "&7Automatic chest sorting has been &aenabled&7."
-message-inv-sorting-disabled: "&7Automatic inventory sorting has been &cdisabled&7."
-message-inv-sorting-enabled: "&7Automatic inventory sorting has been &aenabled&7."
-message-player-inventory-sorted: "&7Your inventory has been sorted."
-message-error-players-only: "&cError: This command can only be run by players."
-message-error-invalid-options: "&cError: Unknown option %s. Valid options are %s."
-message-container-sorted: "&aContainer sorted!"
-message-gui-enabled: "&aEnabled"
-message-gui-disabled: "&cDisabled"
-message-gui-middle-click: "Middle-Click"
-message-gui-shift-click: "Shift + Click"
-message-gui-double-click: "Double-Click"
-message-gui-shift-right-click: "Shift + Right-Click"
-message-gui-left-click: "Fill Chest (Left-Click/Double-Left-Click)"
-message-gui-right-click: "Empty Chest (Right-Click/Double-Right-Click)"
-message-gui-left-click-outside: "Left-Click from outside"
+message-when-using-chest: "&6]|[ &3&7Hint: Type &6/chestsort&7 to enable automatic chest sorting. &6]|["
+message-when-using-chest2: "&6]|[ &3&7Hint: Type &6/chestsort&7 to disable automatic chest sorting. &6]|["
+message-sorting-disabled: "&6]|[ &3&7Automatic chest sorting has been &cdisabled&7. &6]|["
+message-sorting-enabled: "&6]|[ &3&7Automatic chest sorting has been &aenabled&7. &6]|["
+message-inv-sorting-disabled: "&6]|[ &3&7Automatic inventory sorting has been &cdisabled&7. &6]|["
+message-inv-sorting-enabled: "&6]|[ &3&7Automatic inventory sorting has been &aenabled&7. &6]|["
+message-player-inventory-sorted: "&6]|[ &3&7Your inventory has been sorted. &6]|["
+message-error-players-only: "&6]|[ &3&cError: This command can only be run by players. &6]|["
+message-error-invalid-options: "&6]|[ &3&cError: Unknown option %s. Valid options are %s. &6]|["
+message-container-sorted: "&6]|[ &3&aContainer sorted! &6]|["
+message-gui-enabled: "&6]|[ &3&aEnabled &6]|["
+message-gui-disabled: "&6]|[ &3&cDisabled &6]|["
+message-gui-middle-click: "&6]|[ &3Middle-Click &6]|["
+message-gui-shift-click: "&6]|[ &3Shift + Click &6]|["
+message-gui-double-click: "&6]|[ &3Double-Click &6]|["
+message-gui-shift-right-click: "&6]|[ &3Shift + Right-Click &6]|["
+message-gui-left-click: "&6]|[ &3Fill Chest (Left-Click/Double-Left-Click) &6]|["
+message-gui-right-click: "&6]|[ &3Empty Chest (Right-Click/Double-Right-Click) &6]|["
+message-gui-left-click-outside: "&6]|[ &3Left-Click from outside &6]|["
 
 ##### English
 #message-when-using-chest: "&7Hint: Type &6/chestsort&7 to enable automatic chest sorting."

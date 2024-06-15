@@ -6,7 +6,7 @@
 # InvUnload has the following commands:
 #
 # /unload will check if nearby chests contain items you are carrying
-# outside of your hotbar. If yes, those will be put into the chest. 
+# outside of your hotbar. If yes, those will be put into the chest.
 #
 # /dump will dump all your inventory contents except your hotbar into
 # nearby chests, regardless of what is inside, but it first try
@@ -200,7 +200,7 @@ strict-tabcomplete: true
 
 # Checks for updates (asynchronously).
 # When enabled, a message is printed in the console if a new
-# version has been found, and OPs will be notified when they join the server 
+# version has been found, and OPs will be notified when they join the server
 # When set to true, check for updates on startup and every X hours (see "check-interval" below)
 # When set to on-startup, only check on server startup
 # When set to false, don't check for updates
@@ -219,7 +219,7 @@ check-interval: 4
 # &1 Dark Blue    &7 Gray       &d Light Purple
 # &2 Dark Green   &8 Dark Gray  &e Yellow
 # &3 Dark Aqua    &9 Blue       &f White
-# &4 Dark Red     &a Green     
+# &4 Dark Red     &a Green
 # &5 Dark Purple  &b Aqua
 
 # Available formatting codes:
@@ -229,24 +229,24 @@ check-interval: 4
 
 # By default, every message sent by InvUnload has an [InvUnload] prefix.
 # You can change this if you want or set it to an empty string to disable it.
-message-prefix: "&6[InvUnload] &r"
-blacklist-title: "----- &cBlacklist&r -----"
+message-prefix: "&6]|[ &6[InvUnload] &6]|[ &r"
+blacklist-title: "&6]|[ ----- &cBlacklist ----- &6]|[ &r"
 
-message-could-not-unload: "&7Nothing to unload: There are no chests for the remaining items."
-message-radius-too-high: "&cError:&7 The radius cannot be higher than %d blocks."
-message-no-chests-nearby: "&7Nothing to unload: There are no chests nearby. Adjust the radius or walk closer to your chests."
-message-error-not-a-number: "&cError:&7 '%s' is not a valid number."
-message-inventory-empty: "&7Nothing to unload: Your inventory is already empty."
-message-nothing-found: "&7Could not find any chests containing %s."
-message-blacklist-empty: "&7You blacklist is empty."
-message-blacklist-added: "&2Added to blacklist:&7 %s"
-message-blacklist-invalid: "&4Invalid items:&7 %s"
-message-blacklist-removed: "&2Removed from blacklist:&7 %s"
-message-blacklist-nothing-specified: "&7You must either hold an item in your hand or specify at least one item."
-message-will-use-hotbar: "&6%s &7will now use items from your hotbar."
-message-will-not-use-hotbar: "&6%s &7will no longer use items from your hotbar."
-message-could-not-unload-blacklist: "&7Nothing to unload: All items in your inventory are blacklisted. Type /blacklist to see it."
-message-cooldown: "&cPlease wait a moment before running the command again."
+message-could-not-unload: "&6]|[ &7Nothing to unload: There are no chests for the remaining items. &6]|["
+message-radius-too-high: "&6]|[ &cError:&7 The radius cannot be higher than %d blocks. &6]|["
+message-no-chests-nearby: "&6]|[ &7Nothing to unload: There are no chests nearby. Adjust the radius or walk closer to your chests. &6]|["
+message-error-not-a-number: "&6]|[ &cError:&7 '%s' is not a valid number. &6]|["
+message-inventory-empty: "&6]|[ &7Nothing to unload: Your inventory is already empty. &6]|["
+message-nothing-found: "&6]|[ &7Could not find any chests containing %s. &6]|["
+message-blacklist-empty: "&6]|[ &7You blacklist is empty. &6]|["
+message-blacklist-added: "&6]|[ &2Added to blacklist:&7 %s &6]|["
+message-blacklist-invalid: "&6]|[ &4Invalid items:&7 %s &6]|["
+message-blacklist-removed: "&6]|[ &2Removed from blacklist:&7 %s &6]|["
+message-blacklist-nothing-specified: "&6]|[ &7You must either hold an item in your hand or specify at least one item. &6]|["
+message-will-use-hotbar: "&6]|[ &6%s &7will now use items from your hotbar. &6]|["
+message-will-not-use-hotbar: "&6]|[ &6%s &7will no longer use items from your hotbar. &6]|["
+message-could-not-unload-blacklist: "&6]|[ &7Nothing to unload: All items in your inventory are blacklisted. Type /blacklist to see it. &6]|["
+message-cooldown: "&6]|[ &cPlease wait a moment before running the command again. &6]|["
 
 ##### English
 #message-could-not-unload: "&7Nothing to unload: There are no chests for the remaining items."

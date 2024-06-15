@@ -1,15 +1,13 @@
-aliases: now-in-commands.yml
 settings:
   use-map-color-cache: true
   allow-end: false
   warn-on-overload: true
-  permissions-file: permissions.yml
   update-folder: update
   plugin-profiling: false
   connection-throttle: 4000
   query-plugins: true
   deprecated-verbose: default
-  shutdown-message: Server closed
+  shutdown-message: "&6&l]|[ &3&lServer closed &6&l]|["
   minimum-api: none
 spawn-limits:
   monsters: 70
