@@ -825,20 +825,20 @@ lands:
         disabled: "&cYour elytra gliding has been disabled. &7You're not allowed
           to use elytras here."
       enter:
-        land: "#t#[config]in:5,stay:40,out:2[/config]&6&l]|[ &3&l{land} &6&l]|[[newline]&3{title}"
-        camp: "#t#[config]in:5,stay:40,out:2[/config]&6&l]|[ &3&l{land} &6&l]|[[newline]&3{title}"
-        admin: "#t#[config]in:5,stay:40,out:2[/config]&6&l]|[ &3&l{land} &6&l]|[[newline]{title}"
-        pvp-warning: "#a#&cYou entered a pvp zone."
+        land: "#t#[config]in:5,stay:40,out:2[/config]&6&l]|[ &3&l{land} &6&l]|[[newline]&6▶ {title} &6⯇"
+        camp: "#t#[config]in:5,stay:40,out:2[/config]&6&l]|[ &3&l{land} &6&l]|[[newline]&6▶ {title} &6⯇"
+        admin: "#t#[config]in:5,stay:40,out:2[/config]&6&l]|[ &3&l{land} &6&l]|[[newline]&6▶ {title} &6⯇"
+        pvp-warning: "#a#&6▶ &cYou entered a pvp zone &6⯇"
       leave:
         land:
-          "#t#[config]in:5,stay:30,out:2[/config]&6&l]|[ &2&lWilderness &6&l]|[[newline]&7Feel
-          the wild"
+          "#t#[config]in:5,stay:30,out:2[/config]&6&l]|[ &2&lWilderness &6&l]|[[newline]&6▶ &aFeel
+          the wild &6⯇"
         camp:
-          "#t#[config]in:5,stay:30,out:2[/config]&6&l]|[ &2&lWilderness &6&l]|[[newline]&7Feel
-          the wild"
+          "#t#[config]in:5,stay:30,out:2[/config]&6&l]|[ &2&lWilderness &6&l]|[[newline]&6▶ &aFeel
+          the wild &6⯇"
         admin:
-          "#t#[config]in:5,stay:30,out:2[/config]&6&l]|[ &2&lWilderness &6&l]|[[newline]&7Feel
-          the wild"
+          "#t#[config]in:5,stay:30,out:2[/config]&6&l]|[ &2&lWilderness &6&l]|[[newline]&6▶ &aFeel
+          the wild &6⯇"
       level:
         up: "#t#&6{object}[newline]&7leveled up: {level}"
         down: "#t#&6{object}[newline]&7leveled down to: {level}"
