@@ -34,7 +34,7 @@ allow-opening-irondoors-with-hands: false
 allow-knocking: true
 
 # When true, players can only knock when their hand is empty.
-knocking-requires-empty-hand: false
+knocking-requires-empty-hand: true
 
 # When true, players can only knock while sneaking
 knocking-requires-shift: false

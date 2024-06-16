@@ -1,4 +1,4 @@
-prefix: '&6&l[&3&lGraves&6&l] '
+prefix: "&6[&3Graves&6]&r "
 
 # how fast should death chests disappear
 # set to -1 to make graves last until the next server restart
@@ -35,7 +35,7 @@ head-height: -1.2
 # worlds where death chests won't spawn
 # this is case-sensitive
 disabled-worlds:
-- blacklisted_world
+  - blacklisted_world
 
 # true: the head can face in all the 360 degrees
 # false: the head can face in only 4 directions (north, east, south, west)
@@ -58,9 +58,9 @@ xp-keep-percentage: 0.5
 # all the other items will be put AFTER these
 # values: ARMOR, HAND, OFFHAND
 grave-item-order:
-- ARMOR
-- HAND
-- OFFHAND
+  - ARMOR
+  - HAND
+  - OFFHAND
 
 # should the armor parts be auto equipped?
 auto-equip-armor: true
@@ -78,14 +78,14 @@ spawn-height-limits: {}
 # list of valid values: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/event/entity/EntityDamageEvent.DamageCause.html
 # case sensitive
 blacklisted-death-causes:
-- EXAMPLE_DEATH_CAUSE
+  - EXAMPLE_DEATH_CAUSE
 
 # should the grave disappear when all items get taken out of it?
 despawn-when-empty: true
 
 # items that will be removed on death and will not show up in graves
 blacklisted-items:
-  '1':
+  "1":
     material: barrier
     name-contains: Banned item's name
 

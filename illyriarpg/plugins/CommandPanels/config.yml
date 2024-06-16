@@ -22,34 +22,34 @@ config:
   update-notifications: true
   panel-snooper: false
   format:
-    disabled: '&cThis feature is disabled in your plugin config.'
-    tag: '&6[&bCommandPanels&6] '
-    perms: '&cNo permission.'
-    reload: '&aReloaded.'
-    nopanel: '&cPanel not found.'
-    noitem: '&cPanel doesn''t have clickable item.'
-    notitem: '&cPlayer not found.'
-    error: '&cError found in config.'
+    disabled: "&cThis feature is disabled in your plugin config."
+    tag: "&6[&3CommandPanels&6]&r "
+    perms: "&cNo permission."
+    reload: "&aReloaded."
+    nopanel: "&cPanel not found."
+    noitem: "&cPanel doesn't have clickable item."
+    notitem: "&cPlayer not found."
+    error: "&cError found in config."
     offline: Offline
     offlineHeadValue: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmU1Mjg2YzQ3MGY2NmZmYTFhMTgzMzFjYmZmYjlhM2MyYTQ0MjRhOGM3MjU5YzQ0MzZmZDJlMzU1ODJhNTIyIn19fQ==
-    input: '&cYour Input is too long!'
+    input: "&cYour Input is too long!"
 input:
   input-cancel: cancel
-  input-cancelled: '&cCancelled!'
+  input-cancelled: "&cCancelled!"
   max-input-length: -1
   input-message:
-  - '%cp-tag%&aEnter Input for Command'
-  - '&cType &4%cp-args% &cto Cancel the command'
+    - "%cp-tag%&aEnter Input for Command"
+    - "&cType &4%cp-args% &cto Cancel the command"
 hexcodes:
-  start_tag: '#'
-  end_tag: ''
+  start_tag: "#"
+  end_tag: ""
 placeholders:
   primary:
-    start: '%'
-    end: '%'
+    start: "%"
+    end: "%"
   secondary:
-    start: '{'
-    end: '}'
+    start: "{"
+    end: "}"
 updater:
   auto-update: true
   minor-updates-only: true
@@ -58,28 +58,28 @@ purchase:
   permission:
     enable: true
     success: '&aYou have successfully passed the permission check for "%cp-args%".'
-    failure: '&cInefficient Permissions'
+    failure: "&cInefficient Permissions"
   currency:
     enable: false
-    success: '&aSuccessfully Bought For $%cp-args%'
-    failure: '&cInsufficient Funds!'
+    success: "&aSuccessfully Bought For $%cp-args%"
+    failure: "&cInsufficient Funds!"
   data:
     enable: true
-    success: '&aSuccessfully Bought For $%cp-args%'
-    failure: '&cInsufficient Funds!'
+    success: "&aSuccessfully Bought For $%cp-args%"
+    failure: "&cInsufficient Funds!"
   tokens:
     enable: false
-    success: '&aSuccessfully Bought For %cp-args% Tokens.'
-    failure: '&cInsufficient Tokens!'
+    success: "&aSuccessfully Bought For %cp-args% Tokens."
+    failure: "&cInsufficient Tokens!"
   coins:
     enable: false
-    success: '&aSuccessfully Bought For %cp-args% Coins.'
-    failure: '&cInsufficient Coins!'
+    success: "&aSuccessfully Bought For %cp-args% Coins."
+    failure: "&cInsufficient Coins!"
   item:
     enable: true
-    success: '&aSuccessfully Sold %cp-args%.'
-    failure: '&cInsufficient Items!'
+    success: "&aSuccessfully Sold %cp-args%."
+    failure: "&cInsufficient Items!"
   xp:
     enable: true
-    success: '&aSuccessfully Bought For %cp-args% Experience.'
-    failure: '&cInsufficient Experience!'
+    success: "&aSuccessfully Bought For %cp-args% Experience."
+    failure: "&cInsufficient Experience!"
