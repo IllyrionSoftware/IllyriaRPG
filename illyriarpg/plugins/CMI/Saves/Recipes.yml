@@ -29,8 +29,7 @@ CRecipes:
         lore:
           - '{"text":"","extra":[{"text":"▶ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"9
             potatoes packed ","italic":false,"color":"dark_aqua"},{"text":"◀","italic":false,"color":"gray"}]}'
-        enchants:
-          minecraft:unbreaking: 1
+        enchants: {}
     Recipe:
       "0":
         item:
@@ -107,8 +106,7 @@ CRecipes:
             lore:
               - '{"text":"","extra":[{"text":"▶ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"9
                 potatoes packed ","italic":false,"color":"dark_aqua"},{"text":"◀","italic":false,"color":"gray"}]}'
-            enchants:
-              minecraft:unbreaking: 1
+            enchants: {}
         byItem: true
   # 9 Carrots to 1 Condensed Carrot recipe
   083e4ba8-43ed-3134-893a-85deabb70077:
@@ -202,8 +200,7 @@ CRecipes:
             lore:
               - '{"text":"","extra":[{"text":"▶ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"9
                 carrots packed ","italic":false,"color":"dark_aqua"},{"text":"◀","italic":false,"color":"gray"}]}'
-            enchants:
-              minecraft:unbreaking: 1
+            enchants: {}
         byItem: true
   # 9 Beetroots to 1 Condensed Beetroot recipe
   083e4ba8-43ed-3134-893a-85deabb70078:
@@ -219,8 +216,7 @@ CRecipes:
         lore:
           - '{"text":"","extra":[{"text":"▶ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"9
             beetroots packed ","italic":false,"color":"dark_aqua"},{"text":"◀","italic":false,"color":"gray"}]}'
-        enchants:
-          minecraft:unbreaking: 1
+        enchants: {}
     Recipe:
       "0":
         item:
@@ -297,6 +293,5 @@ CRecipes:
             lore:
               - '{"text":"","extra":[{"text":"▶ ","obfuscated":false,"italic":false,"underlined":false,"strikethrough":false,"color":"gray","bold":false},{"text":"9
                 beetroots packed ","italic":false,"color":"dark_aqua"},{"text":"◀","italic":false,"color":"gray"}]}'
-            enchants:
-              minecraft:unbreaking: 1
+            enchants: {}
         byItem: true
