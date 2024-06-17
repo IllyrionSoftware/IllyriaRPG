@@ -1,5 +1,5 @@
 general:
-  prefix: "&6[&3Oraxen&6] <gray>| "
+  prefix: "<gold>[<dark_aqua>Oraxen<gold>] <gray>| "
   no_permission: "<prefix><#fa4943>You're lacking the permission <b><permission></b> to do this!"
   work_in_progress: "<prefix><#facc43>This feature is work in progress!"
   not_player: "<prefix><#fa4943>This can only be done as a player!"
