@@ -1,0 +1,49 @@
+# This configuration file provides some general configuration.
+# Worlds and their regeneration behaviour can be configured in the worlds.yml file.
+
+general:
+  # Default: English (en-US) - no download required.
+  # You can access translations maintained by the community in our Discord: https://discord.gg/B4MAJVk
+  # To access translations, other than en-US, execute /translations in the Discord server.
+  # The translation name should match the official language code (https://www.oracle.com/java/technologies/javase/jdk8-jre8-suported-locales.html).
+  # This option also affects the grouping and decimal separator for currency formatting.
+  language: "en-US"
+
+# NOTE: Changes to this section require server reload / restart.
+# The queue regenerates x chunks (defined by option "max") every interval (defined by option "interval_time").
+queue:
+  # Should it only regenerate chunks that are already loaded?
+  # Disabling that option is not recommended. Regenerating chunks that are loaded puts a lot less stress on your server.
+  # If a chunk is expired and is unloaded, while this option is enabled, it will simply regenerate once it gets loaded again
+  # for whatever reason.
+  only-loaded: true
+  # Set the interval of the regeneration queue.
+  interval_time: 2s
+  # Set the maximum amount of regenerations per cycle.
+  max: 1
+
+database:
+  # MySQL database
+  # To use this without issues, your connection limits etc. need to be configured properly in your MySQL server configuration.
+  # It is not recommended connecting multiple instances of WildRegeneration to one database with the same table prefix.
+  mysql:
+    # NOTE: If disabled, SQLite will be used instead.
+    enabled_2: false
+    ip-address: "localhost"
+    port: "3306"
+    username: "minecraft"
+    password: "password"
+    database: "wildregeneration"
+
+    # It is highly recommended setting a unique table prefix if the plugin shares a database with other plugins or WildRegeneration instances.
+    table-prefix: "wildregen_"
+
+# General Teleportation Settings
+# Currently not needed.
+teleport:
+  first-join_time: 0h
+
+# Configure logging
+logging:
+  # We might ask you to enable this, when you submit a bugreport.
+  debug: false

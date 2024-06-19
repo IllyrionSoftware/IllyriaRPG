@@ -1,0 +1,17 @@
+# Here you can edit all chat messages.
+#
+# If you encounter any issues or have questions:
+# Discord: https://discord.gg/B4MAJVk
+#
+# Wiki: https://github.com/Angeschossen/General/wiki/Messages
+
+general:
+  prefix:
+    normal: "&6[&3WildRegen&6] "
+
+wildregeneration:
+  message:
+    regenerated:
+      teleported:
+        "&7You were teleported to a safe location, because the chunk you
+        were standing in was regenerated."

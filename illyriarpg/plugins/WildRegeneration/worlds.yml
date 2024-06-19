@@ -1,0 +1,23 @@
+worlds:
+  world:
+    # Wilderness Configuration
+    # Customize chunk regeneration in the wilderness (not claimed).
+    wilderness:
+      enabled: true
+      # Set the timespan a chunk needs to stay untouched (no player interaction at all), before it will be regenerated.
+      # If a player just walk through a chunk without interacting with it, the interaction time won't be reset.
+      no-interaction_time: 30d
+      # Prevent chunks getting reset that are near a claimed land?
+      # The radius is applied to each chunk that gets checked. If there's any land claim
+      # within that radius, this chunk won't be regenerated.
+      # This option is not applied to chunks that get regenerated because they got unclaimed.
+      # Any value lower than 1 disables this option.
+      no-claim-radius: 2
+    # This section is only supported by Lands.
+    # https://www.spigotmc.org/resources/lands-land-claim-plugin-grief-prevention-protection-gui-management-nations-wars-1-18-support.53313/
+    land-unclaim:
+      # Should chunks be regenerated at unclaim or land deletion?
+      enabled: true
+      # If a player interacts with an unclaimed chunk within this period, the chunk won't be regenerated.
+      # If no interaction has taken place during that time, the chunk will be regenerated.
+      grace_time: 2d
