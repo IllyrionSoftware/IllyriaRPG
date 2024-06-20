@@ -59,7 +59,6 @@ panels:
           - ""
           - "&8✖ &7Information:"
           - "   &3Version: &61.20.6"
-          - "   &3Players: &6%cp-online-players%"
           - "   &3Type: &6MMORPG"
           - "   &3Plugins:"
           - "     &8- &6AngelChest"
@@ -89,6 +88,9 @@ panels:
         lore:
           - ""
           - "&8✖ &7Information:"
+          - "   &3/rtp [world]"
+          - "   &3/recipies"
+          - "   &3/unload"
   dimensions:
     perm: default
     rows: 4
