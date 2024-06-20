@@ -5,7 +5,7 @@
 # /     /    | `.__/| /    |  \__/  `._.' /   '   / |,'  \,'    `._.' /     /\__ `___,' \___.'
 
 common:
-  prefix: "&6[&3PhantomWorlds&]&7"
+  prefix: "&6[&3PhantomWorlds&6]&7"
 
   no-permission: "%prefix% You don't have access to that. &8(%permission%)"
 
