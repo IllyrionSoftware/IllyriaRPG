@@ -15,7 +15,7 @@ panels:
       - unmovable
     item:
       "11":
-        material: PETRIFIED_OAK_SLAB
+        material: BLAZE_ROD
         customdata: 1
         stack: 1
         name: "&6&lLands"
@@ -27,7 +27,7 @@ panels:
         commands:
           - lands
       "13":
-        material: PETRIFIED_OAK_SLAB
+        material: BLAZE_ROD
         customdata: 2
         stack: 1
         enchanted:
@@ -41,7 +41,7 @@ panels:
         commands:
           - cp dimensions
       "15":
-        material: PETRIFIED_OAK_SLAB
+        material: BLAZE_ROD
         customdata: 3
         stack: 1
         name: "&6&lAdapt &7&l| &4&lCOMING SOON"
@@ -51,7 +51,7 @@ panels:
           - "&8✖ &3Leveling, Skills, and Abilities"
           - "   &7Shortcut: &6/adapt"
       "27":
-        material: PETRIFIED_OAK_SLAB
+        material: BLAZE_ROD
         customdata: 7
         stack: 1
         name: "&6&lServer Info"
@@ -82,7 +82,7 @@ panels:
           - "     &8- &6Spark"
           - "     &8- &6WildRegeneration"
       "31":
-        material: PETRIFIED_OAK_SLAB
+        material: BLAZE_ROD
         customdata: 8
         stack: 1
         name: "&6&lUseful Cmds"
@@ -100,7 +100,7 @@ panels:
       - unmovable
     item:
       "10":
-        material: PETRIFIED_OAK_SLAB
+        material: BLAZE_ROD
         customdata: 1
         stack: 1
         name: "&2&lThe Overworld"
@@ -117,7 +117,7 @@ panels:
         commands:
           - delay= 60 console= rt %cp-player-name% dim_overworld
       "12":
-        material: PETRIFIED_OAK_SLAB
+        material: BLAZE_ROD
         customdata: 4
         stack: 1
         name: "&1&lThe Resourceworld"
@@ -134,7 +134,7 @@ panels:
         commands:
           - delay= 60 console= rt %cp-player-name% dim_resourceworld
       "14":
-        material: PETRIFIED_OAK_SLAB
+        material: BLAZE_ROD
         customdata: 5
         stack: 1
         name: "&4&lThe Underworld"
@@ -151,7 +151,7 @@ panels:
         commands:
           - delay= 60 console= rt %cp-player-name% dim_underworld
       "16":
-        material: PETRIFIED_OAK_SLAB
+        material: BLAZE_ROD
         customdata: 6
         stack: 1
         name: "&5&lThe Endworld"
