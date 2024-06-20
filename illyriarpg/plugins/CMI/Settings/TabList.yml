@@ -38,7 +38,7 @@ TabList:
     Footer:
       "1":
         - ""
-        - "&3Dimension: &r%pw_name% &6| &3Time: &r%pw_period% &6| &3Weather: &r%cmi_user_weather%"
+        - "&3Dimension: &r%pworlds_name% &6| &3Time: &r%pworlds_period% &6| &3Weather: &r%cmi_user_weather%"
         - "&6]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|["
   useGeneralName: true
   # When this set to true, in case you dint defined PlayerName, Header or Footer in GroupFormat, then default one from GeneralFormat will be used
