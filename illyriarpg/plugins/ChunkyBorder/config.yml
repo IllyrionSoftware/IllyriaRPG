@@ -4,7 +4,7 @@
 version: 1
 border-options:
   check-interval: 20
-  message: '&6&l]|[ &c&lYou have reached the edge of this dimension &6&l]|['
+  message: "&6&l]|[ &c&lYou have reached the edge of this dimension &6&l]|["
   use-action-bar: true
   effect: ender_signal
   sound: entity_enderman_teleport

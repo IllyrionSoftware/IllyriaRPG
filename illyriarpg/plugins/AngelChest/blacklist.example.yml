@@ -106,8 +106,8 @@ exampleTridentWhenInOffhand:
 
 # Ignores items with the pdc key "simplesoulbound:soulbound"
 examplePdcSoulbound:
-    pdcKeys:
-        - "simplesoulbound:soulbound"
+  pdcKeys:
+    - "simplesoulbound:soulbound"
 
 # This matches all items that have *any* custom model data
 exampleAnyCustomModelData:
@@ -125,7 +125,6 @@ exampleCustomModelDataExact:
   customModelData:
     min: 69
     max: 69
-
 # This matches all items that do not have any custom model data
 #exampleNoCustomModelData:
 #  customModelData:

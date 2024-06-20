@@ -5,7 +5,7 @@ storage:
 mysql:
   # Requires Mysql.
   username: root
-  password: ''
+  password: ""
   hostname: localhost:3306
   database: minecraft
   # Valid characters are a-z 0-9 and _

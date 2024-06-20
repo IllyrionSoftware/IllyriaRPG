@@ -6,8 +6,8 @@ RandomTeleportation:
   MaxTries: 20
   # List of biomes to exclude from random teleportation
   ExcludedBiomes:
-  - Ocean
-  - Deep ocean
+    - Ocean
+    - Deep ocean
   # If this set to true we will generate random teleport default settings for all detected worlds
   # Setting to false will no longer generate world setups, but you can add them manually if needed
   AutoGenerateWorlds: true

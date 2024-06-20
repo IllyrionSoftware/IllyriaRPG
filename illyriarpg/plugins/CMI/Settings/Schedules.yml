@@ -24,7 +24,7 @@
 # DontTranslatePlaceholders: (true/false) if set to true we will not translate placeholders inside commands before sending them to later processing
 #   This defaults to false and placeholders will be translated before hand
 #   Exception for delay! specialized command variable which always gets translated before hand
-# Commands: List of commands to be performed when time is correct. 
+# Commands: List of commands to be performed when time is correct.
 #   If command starts with msg! and then player name is given, simple message will be sent to that player if he is online.
 #   If command starts with broadcast! then message will be sent to everyone on server in simple manear
 #   If command starts with actionbar! then all players will get action bar message defined after this variable
@@ -32,7 +32,7 @@
 #   If command starts with subtitle! then all players will get subtitle message defined after this variable
 #   If command starts with kickall! then all players will be kicked from server with defined message. Usefull before server stop.
 #   If command starts with perm:[permissionNode]! then command will get performed if player has permission node. This will not work when we dont know who is target player. In example: perm:cmi.announce.vip! broadcast! Hello vip guys
-#   If command starts with moneycost:[amount]! then command will get performed if player has enough money. 
+#   If command starts with moneycost:[amount]! then command will get performed if player has enough money.
 #   If command starts with expcost:[amount]! then command will get performed if player has enough exp.
 #   If command starts with allPlayers! then command will get performed by using everyones who is online name. Command itself need to contain [allPlayers] to indicate where player name needs to be added
 #   Insert line with 'delay! 5' to perform rest of commands after 5 seconds from scheduler trigger. This allows to create in example counter before server stop. Check example.
@@ -43,41 +43,41 @@
 RestartServer:
   Enabled: true
   PerformOn:
-    '1':
+    "1":
       Hour: 23
       Minute: 45
-    '2':
+    "2":
       Hour: 5
       Minute: 45
-    '3':
+    "3":
       Hour: 11
       Minute: 45
-    '4':
+    "4":
       Hour: 17
       Minute: 45
   Commands:
-  - actionbar! &6]|[ &cServer will restart in &315 &cmin! &6]|[
-  - delay! 300
-  - actionbar! &6]|[ &cServer will restart in &310 &cmin! &6]|[
-  - delay! 300
-  - actionbar! &6]|[ &cServer will restart in &35 &cmin! &6]|[
-  - delay! 240
-  - actionbar! &6]|[ &cServer will restart in &31 &cmin! &6]|[
-  - delay! 30
-  - actionbar! &6]|[ &cServer will restart in &330 &csec! &6]|[
-  - delay! 20
-  - actionbar! &6]|[ &cServer will restart in &310 &csec! &6]|[
-  - delay! 5
-  - actionbar! &6]|[ &cServer will restart in &35 &csec! &6]|[
-  - delay! 1
-  - actionbar! &6]|[ &cServer will restart in &34 &csec! &6]|[
-  - delay! 1
-  - actionbar! &6]|[ &cServer will restart in &33 &csec! &6]|[
-  - delay! 1
-  - actionbar! &6]|[ &cServer will restart in &32 &csec! &6]|[
-  - delay! 1
-  - actionbar! &6]|[ &cServer will restart in &31 &csec! &6]|[
-  - delay! 1
-  - kickall! &6]|[ &bServer will be back online soon! &6]|[
-  - delay! 1
-  - restart
+    - actionbar! &6]|[ &cServer will restart in &315 &cmin! &6]|[
+    - delay! 300
+    - actionbar! &6]|[ &cServer will restart in &310 &cmin! &6]|[
+    - delay! 300
+    - actionbar! &6]|[ &cServer will restart in &35 &cmin! &6]|[
+    - delay! 240
+    - actionbar! &6]|[ &cServer will restart in &31 &cmin! &6]|[
+    - delay! 30
+    - actionbar! &6]|[ &cServer will restart in &330 &csec! &6]|[
+    - delay! 20
+    - actionbar! &6]|[ &cServer will restart in &310 &csec! &6]|[
+    - delay! 5
+    - actionbar! &6]|[ &cServer will restart in &35 &csec! &6]|[
+    - delay! 1
+    - actionbar! &6]|[ &cServer will restart in &34 &csec! &6]|[
+    - delay! 1
+    - actionbar! &6]|[ &cServer will restart in &33 &csec! &6]|[
+    - delay! 1
+    - actionbar! &6]|[ &cServer will restart in &32 &csec! &6]|[
+    - delay! 1
+    - actionbar! &6]|[ &cServer will restart in &31 &csec! &6]|[
+    - delay! 1
+    - kickall! &6]|[ &bServer will be back online soon! &6]|[
+    - delay! 1
+    - restart
