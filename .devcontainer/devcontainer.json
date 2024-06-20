@@ -17,7 +17,6 @@
   "customizations": {
     "vscode": {
       "extensions": [
-        "charliermarsh.ruff",
         "eamodio.gitlens",
         "esbenp.prettier-vscode",
         "github.copilot",
