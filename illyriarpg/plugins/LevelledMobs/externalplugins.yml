@@ -26,35 +26,35 @@
 #   ---------------  -  ------------------------------
 #
 infernal-mobs:
-  friendly-name: 'infernal-mobs'
-  plugin-name: 'InfernalMobs'
-  key-name: 'infernalMetadata'
-  key-type: 'metadata'
-  requirement: 'exists'
+  friendly-name: "infernal-mobs"
+  plugin-name: "InfernalMobs"
+  key-name: "infernalMetadata"
+  key-type: "metadata"
+  requirement: "exists"
 #  placeholder-name: '%infernal-mobs-name%'
 
 shop-keepers:
-  friendly-name: 'shop-keepers'
-  plugin-name: 'ShopKeepers'
-  key-name: 'shopkeeper'
-  key-type: 'metadata'
-  requirement: 'exists'
+  friendly-name: "shop-keepers"
+  plugin-name: "ShopKeepers"
+  key-name: "shopkeeper"
+  key-type: "metadata"
+  requirement: "exists"
 #  placeholder-name: '%shop-keeper-name%'
 
 blood-night:
-  friendly-name: 'blood-night'
-  plugin-name: 'BloodNight'
-  key-name: 'mobtype'
-  key-type: 'PDC'
-  requirement: 'exists'
+  friendly-name: "blood-night"
+  plugin-name: "BloodNight"
+  key-name: "mobtype"
+  key-type: "PDC"
+  requirement: "exists"
 #  placeholder-name: '%blood-night-name%'
 
 eco-bosses:
-  friendly-name: 'eco-bosses'
-  plugin-name: 'EcoBosses'
-  key-name: 'boss'
-  key-type: 'PDC'
-  requirement: 'exists'
+  friendly-name: "eco-bosses"
+  plugin-name: "EcoBosses"
+  key-name: "boss"
+  key-type: "PDC"
+  requirement: "exists"
 #  placeholder-name: '%eco-bosses-name%'
 
 #
