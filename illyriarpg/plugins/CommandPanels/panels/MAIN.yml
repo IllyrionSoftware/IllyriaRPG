@@ -50,7 +50,7 @@ panels:
           - ""
           - "&8✖ &3Leveling, Skills, and Abilities"
           - "   &7Shortcut: &6/adapt"
-      "27":
+      "29":
         material: BLAZE_ROD
         customdata: 7
         stack: 1
@@ -58,10 +58,10 @@ panels:
         lore:
           - ""
           - "&8✖ &7Information:"
-          - "   &7Version: &61.20.6"
-          - "   &7Players: &6%cp-online-players%"
-          - "   &7Type: &6MMORPG"
-          - "   &7Plugins:"
+          - "   &3Version: &61.20.6"
+          - "   &3Players: &6%cp-online-players%"
+          - "   &3Type: &6MMORPG"
+          - "   &3Plugins:"
           - "     &8- &6AngelChest"
           - "     &8- &6BestTools"
           - "     &8- &6BKCommonLib"
@@ -72,7 +72,7 @@ panels:
           - "     &8- &6CMILib"
           - "     &8- &6CommandPanels"
           - "     &8- &6DoorsReloaded"
-          - "     &8- &7FastAsyncWorldEdit"
+          - "     &8- &6FastAsyncWorldEdit"
           - "     &8- &6InvUnload"
           - "     &8- &6Lands"
           - "     &8- &6LevelledMobs"
@@ -81,7 +81,7 @@ panels:
           - "     &8- &6PlaceholderAPI"
           - "     &8- &6Spark"
           - "     &8- &6WildRegeneration"
-      "31":
+      "33":
         material: BLAZE_ROD
         customdata: 8
         stack: 1
