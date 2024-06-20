@@ -6,7 +6,7 @@
 panels:
   faq:
     perm: default
-    rows: 3
+    rows: 5
     title: "&6&lFAQ"
     commands:
       - faq
@@ -15,7 +15,7 @@ panels:
       - unmovable
     item:
       "11":
-        material: BLAZE_ROD
+        material: PETRIFIED_OAK_SLAB
         customdata: 1
         stack: 1
         name: "&6&lLands"
@@ -27,7 +27,7 @@ panels:
         commands:
           - lands
       "13":
-        material: BLAZE_ROD
+        material: PETRIFIED_OAK_SLAB
         customdata: 2
         stack: 1
         enchanted:
@@ -41,7 +41,7 @@ panels:
         commands:
           - cp dimensions
       "15":
-        material: BLAZE_ROD
+        material: PETRIFIED_OAK_SLAB
         customdata: 3
         stack: 1
         name: "&6&lAdapt &7&l| &4&lCOMING SOON"
@@ -50,6 +50,45 @@ panels:
           - ""
           - "&8✖ &3Leveling, Skills, and Abilities"
           - "   &7Shortcut: &6/adapt"
+      "27":
+        material: PETRIFIED_OAK_SLAB
+        customdata: 7
+        stack: 1
+        name: "&6&lServer Info"
+        lore:
+          - ""
+          - "&8✖ &7Information:"
+          - "   &7Version: &61.20.6"
+          - "   &7Players: &6%cp-online-players%"
+          - "   &7Type: &6MMORPG"
+          - "   &7Plugins:"
+          - "     &8- &6AngelChest"
+          - "     &8- &6BestTools"
+          - "     &8- &6BKCommonLib"
+          - "     &8- &6ChestSort"
+          - "     &8- &6Chunky"
+          - "     &8- &6ChunkyBorder"
+          - "     &8- &6CMI"
+          - "     &8- &6CMILib"
+          - "     &8- &6CommandPanels"
+          - "     &8- &6DoorsReloaded"
+          - "     &8- &7FastAsyncWorldEdit"
+          - "     &8- &6InvUnload"
+          - "     &8- &6Lands"
+          - "     &8- &6LevelledMobs"
+          - "     &8- &6LuckPerms"
+          - "     &8- &6MyWorlds"
+          - "     &8- &6PlaceholderAPI"
+          - "     &8- &6Spark"
+          - "     &8- &6WildRegeneration"
+      "31":
+        material: PETRIFIED_OAK_SLAB
+        customdata: 8
+        stack: 1
+        name: "&6&lUseful Cmds"
+        lore:
+          - ""
+          - "&8✖ &7Information:"
   dimensions:
     perm: default
     rows: 4
@@ -61,7 +100,7 @@ panels:
       - unmovable
     item:
       "10":
-        material: STICK
+        material: PETRIFIED_OAK_SLAB
         customdata: 1
         stack: 1
         name: "&2&lThe Overworld"
@@ -78,8 +117,8 @@ panels:
         commands:
           - delay= 60 console= rt %cp-player-name% dim_overworld
       "12":
-        material: STICK
-        customdata: 1
+        material: PETRIFIED_OAK_SLAB
+        customdata: 4
         stack: 1
         name: "&1&lThe Resourceworld"
         lore:
@@ -95,8 +134,8 @@ panels:
         commands:
           - delay= 60 console= rt %cp-player-name% dim_resourceworld
       "14":
-        material: STICK
-        customdata: 2
+        material: PETRIFIED_OAK_SLAB
+        customdata: 5
         stack: 1
         name: "&4&lThe Underworld"
         lore:
@@ -112,8 +151,8 @@ panels:
         commands:
           - delay= 60 console= rt %cp-player-name% dim_underworld
       "16":
-        material: STICK
-        customdata: 3
+        material: PETRIFIED_OAK_SLAB
+        customdata: 6
         stack: 1
         name: "&5&lThe Endworld"
         lore:
