@@ -6,7 +6,7 @@
 panels:
   faq:
     perm: default
-    rows: 5
+    rows: 4
     title: "&6&lFAQ"
     commands:
       - faq
@@ -50,7 +50,7 @@ panels:
           - ""
           - "&8✖ &3Leveling, Skills, and Abilities"
           - "   &7Shortcut: &6/adapt"
-      "29":
+      "21":
         material: BLAZE_ROD
         customdata: 7
         stack: 1
@@ -81,7 +81,7 @@ panels:
           - "     &8- &6PlaceholderAPI"
           - "     &8- &6Spark"
           - "     &8- &6WildRegeneration"
-      "33":
+      "23":
         material: BLAZE_ROD
         customdata: 8
         stack: 1
