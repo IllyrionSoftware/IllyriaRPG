@@ -102,7 +102,7 @@ panels:
     item:
       "10":
         material: BLAZE_ROD
-        customdata: 1
+        customdata: 4
         stack: 1
         name: "&2&lThe Overworld"
         lore:
