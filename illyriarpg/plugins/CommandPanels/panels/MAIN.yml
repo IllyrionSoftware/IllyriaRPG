@@ -71,6 +71,7 @@ panels:
           - "     &8- &6CMILib"
           - "     &8- &6CommandPanels"
           - "     &8- &6DoorsReloaded"
+          - "     &8- &6ExecutableItems"
           - "     &8- &6FastAsyncWorldEdit"
           - "     &8- &6InvUnload"
           - "     &8- &6Lands"
@@ -78,6 +79,7 @@ panels:
           - "     &8- &6LuckPerms"
           - "     &8- &6PhantomWorlds"
           - "     &8- &6PlaceholderAPI"
+          - "     &8- &6SCore"
           - "     &8- &6Spark"
           - "     &8- &6WildRegeneration"
       "23":
