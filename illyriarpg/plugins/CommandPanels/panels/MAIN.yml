@@ -101,7 +101,7 @@ panels:
     panelType:
       - unmovable
     item:
-      "10":
+      "11":
         material: BLAZE_ROD
         customdata: 4
         stack: 1
@@ -118,24 +118,7 @@ panels:
           - "   &3PVP: &aTrue"
         commands:
           - delay= 60 console= rt %cp-player-name% dim_overworld
-      "12":
-        material: BLAZE_ROD
-        customdata: 4
-        stack: 1
-        name: "&1&lThe Resourceworld"
-        lore:
-          - "&8▶ &7Click the item to rtp &8◀"
-          - ""
-          - "&8✖ &7Information:"
-          - "   &3Environment: &6normal"
-          - "   &3Gamemode: &dSURVIVAL"
-          - "   &3Size: &63200&8x&63200"
-          - "   &3Difficulty: &4HARD"
-          - "   &3Claims: &cFalse"
-          - "   &3PVP: &cFalse"
-        commands:
-          - delay= 60 console= rt %cp-player-name% dim_resourceworld
-      "14":
+      "13":
         material: BLAZE_ROD
         customdata: 5
         stack: 1
@@ -152,7 +135,7 @@ panels:
           - "   &3PVP: &aTrue"
         commands:
           - delay= 60 console= rt %cp-player-name% dim_underworld
-      "16":
+      "15":
         material: BLAZE_ROD
         customdata: 6
         stack: 1
