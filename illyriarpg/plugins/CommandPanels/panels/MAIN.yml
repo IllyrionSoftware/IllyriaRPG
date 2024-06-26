@@ -62,7 +62,6 @@ panels:
           - "   &3Type: &6MMORPG"
           - "   &3Plugins:"
           - "     &8- &6AxGraves"
-          - "     &8- &6AxMinnions"
           - "     &8- &6BestTools"
           - "     &8- &6ChestSort"
           - "     &8- &6Chunky"
