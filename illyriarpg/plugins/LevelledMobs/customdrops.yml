@@ -82,7 +82,7 @@ all_mobs:
 #  - usedroptable: enchanted_book-loyalty-1_3
 #  - usedroptable: enchanted_book-luck_of_the_sea-1_3
 #  - usedroptable: enchanted_book-lure-1_3
-#  - usedroptable: enchanted_book-mending-1
+#  - usedroptable: enchanted_book-mending-100p
 #  - usedroptable: enchanted_book-multishot-1
 #  - usedroptable: enchanted_book-piercing-1_4
 #  - usedroptable: enchanted_book-power-1_5
@@ -178,10 +178,10 @@ DROWNED:
   -
 
 ELDER_GUARDIAN:
-  -
+  - usedroptable: enchanted_book-mending-100p
 
 ENDER_DRAGON:
-  -
+  - usedroptable: enchanted_book-mending-100p
 
 ENDERMAN:
   -
@@ -199,7 +199,7 @@ FROG:
   -
 
 GHAST:
-  -
+  - enchanted_book-mending-5p
 
 GLOW_SQUID:
   -
@@ -208,7 +208,7 @@ GOAT:
   -
 
 GUARDIAN:
-  -
+  - enchanted_book-mending-5p
 
 HOGLIN:
   -
@@ -271,7 +271,7 @@ RABBIT:
   -
 
 RAVAGER:
-  -
+  - enchanted_book-mending-5p
 
 SALMON:
   -
@@ -337,13 +337,13 @@ WANDERING_TRADER:
   -
 
 WARDEN:
-  -
+  - usedroptable: enchanted_book-mending-100p
 
 WITCH:
   -
 
 WITHER:
-  -
+  - usedroptable: enchanted_book-mending-100p
 
 WITHER_SKELETON:
   -
@@ -672,9 +672,14 @@ drop-table:
         chance: 0.001
         enchantments:
           LURE: 3
-  enchanted_book-mending-1:
+  enchanted_book-mending-100p:
     - ENCHANTED_BOOK:
-        chance: 0.001
+        chance: 1.0
+        enchantments:
+          MENDING: 1
+  enchanted_book-mending-5p:
+    - ENCHANTED_BOOK:
+        chance: 0.05
         enchantments:
           MENDING: 1
   enchanted_book-multishot-1:
