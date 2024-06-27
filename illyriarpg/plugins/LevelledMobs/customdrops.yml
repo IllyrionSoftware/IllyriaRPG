@@ -61,44 +61,6 @@ defaults:
 #
 all_mobs:
   -
-#  - usedroptable: enchanted_book-aqua_affinity-1
-#  - usedroptable: enchanted_book-bane_of_arthropods-1_5
-#  - usedroptable: enchanted_book-blast_protection-1_4
-#  - usedroptable: enchanted_book-channeling-1
-#  - usedroptable: enchanted_book-curse_of_binding-1
-#  - usedroptable: enchanted_book-curse_of_vanishing-1
-#  - usedroptable: enchanted_book-depth_strider-1_3
-#  - usedroptable: enchanted_book-efficiency-1_5
-#  - usedroptable: enchanted_book-feather_falling-1_4
-#  - usedroptable: enchanted_book-fire_aspect-1_2
-#  - usedroptable: enchanted_book-fire_protection-1_4
-#  - usedroptable: enchanted_book-flame-1
-#  - usedroptable: enchanted_book-fortune-1_3
-#  - usedroptable: enchanted_book-frost_walker-1_2
-#  - usedroptable: enchanted_book-impaling-1_5
-#  - usedroptable: enchanted_book-infinity-1
-#  - usedroptable: enchanted_book-knockback-1_2
-#  - usedroptable: enchanted_book-looting-1_3
-#  - usedroptable: enchanted_book-loyalty-1_3
-#  - usedroptable: enchanted_book-luck_of_the_sea-1_3
-#  - usedroptable: enchanted_book-lure-1_3
-#  - usedroptable: enchanted_book-mending-100p
-#  - usedroptable: enchanted_book-multishot-1
-#  - usedroptable: enchanted_book-piercing-1_4
-#  - usedroptable: enchanted_book-power-1_5
-#  - usedroptable: enchanted_book-projectile_protection-1_4
-#  - usedroptable: enchanted_book-protection-1_4
-#  - usedroptable: enchanted_book-punch-1_2
-#  - usedroptable: enchanted_book-quick_charge-1_3
-#  - usedroptable: enchanted_book-respiration-1_3
-#  - usedroptable: enchanted_book-riptide-1_3
-#  - usedroptable: enchanted_book-sharpness-1_5
-#  - usedroptable: enchanted_book-silk_touch-1
-#  - usedroptable: enchanted_book-smite-1_5
-#  - usedroptable: enchanted_book-soul_speed-1_3
-#  - usedroptable: enchanted_book-sweeping_edge-1_3
-#  - usedroptable: enchanted_book-thorns-1_3
-#  - usedroptable: enchanted_book-unbreaking-1_3
 
 all_levellable_mobs:
   -
