@@ -161,7 +161,7 @@ FROG:
   -
 
 GHAST:
-  - enchanted_book-mending-5p
+  - usedroptable: enchanted_book-mending-5p
 
 GLOW_SQUID:
   -
@@ -170,7 +170,7 @@ GOAT:
   -
 
 GUARDIAN:
-  - enchanted_book-mending-5p
+  - usedroptable: enchanted_book-mending-5p
 
 HOGLIN:
   -
@@ -233,7 +233,7 @@ RABBIT:
   -
 
 RAVAGER:
-  - enchanted_book-mending-5p
+  - usedroptable: enchanted_book-mending-5p
 
 SALMON:
   -
