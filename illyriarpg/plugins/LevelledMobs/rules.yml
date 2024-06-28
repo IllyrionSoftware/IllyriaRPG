@@ -494,13 +494,6 @@ custom-rules:
       entity-name-override:
         all_entities: "Spawner %displayname%"
 
-  - custom-rule: "Armor and Weapons CustomDrop Table"
-    is-enabled: true
-    conditions:
-      entities: ["ZOMBIE", "HUSK", "PIGLIN", "ZOMBIFIED_PIGLIN"]
-    settings:
-      use-droptable-id: armor_and_weapons
-
   - custom-rule: "External Plugins with Vanilla Stats and Minimized Nametags"
     is-enabled: true
     use-preset: challenge-vanilla, nametag-minimized
