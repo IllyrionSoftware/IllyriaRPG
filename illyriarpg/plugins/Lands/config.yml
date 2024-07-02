@@ -560,6 +560,7 @@ chunk:
   land-flags:
     # Configure DEFAULT natural flags which will apply to new land creations.
     default_list:
+      - block_spreading
       - monster_spawn
       - phantom_spawn
       - animal_spawn
