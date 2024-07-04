@@ -34,5 +34,6 @@
   "workbench.startupEditor": "none",
 
   // General Settings
-  "extensions.ignoreRecommendations": true
+  "extensions.ignoreRecommendations": true,
+  "scm.experimental.showHistoryGraph": true
 }
