@@ -5,7 +5,7 @@ imgtext: &6⯈
 imgtext: &6⯈
 imgtext: &6⯈ &3Welcome &r%cmi_user_prefix% %cmi_user_display_name%&3!
 imgtext: &6⯈
-imgtext: <T>&6⯈ <T>&3Mail&7: &f%cmi_user_mail_count%</T><H>&aClick Me!</H><C>cmi mail</C><T>&3PLevel&7: &f%adapt_player_level%</T><H>&aClick Me!</H><C>adapt gui [Main]</C>
+imgtext: <T>&6⯈ <T>&3Mail&7: &f%cmi_user_mail_count%</T><H>&aClick Me!</H><C>cmi mail</C><T> &7🟅 </T><T>&3PLevel&7: &f%adapt_player_level%</T><H>&aClick Me!</H><C>adapt gui [Main]</C>
 imgtext: <T>&6⯈ &3Check out&7: </T><T>&6/&rFAQ</T><H>&aClick Me!</H><C>faq</C><T> &7🟅 </T><T>&6/&rRules</T><H>&aClick Me!</H><C>rules</C><T> &7🟅 </T><T>&6/&rDiscord</T><H>&aClick Me!</H><C>discord</C>
 imgtext: &6⯈
 imgtext: &6⯈
