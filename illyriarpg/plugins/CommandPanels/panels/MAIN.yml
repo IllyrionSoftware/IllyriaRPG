@@ -44,12 +44,15 @@ panels:
         material: BLAZE_ROD
         customdata: 3
         stack: 1
-        name: "&6&lAdapt &7&l| &4&lCOMING SOON"
+        name: "&6&lAdapt"
         lore:
           - "&8▶ &7Click the item to open &8◀"
           - ""
           - "&8✖ &3Leveling, Skills, and Abilities"
-          - "   &7Shortcut: &6/adapt"
+          - "   &7Shortcut: &6/adapt gui [Main]"
+          - "   &cShortcut to be adjusted soon!"
+        commands:
+          - adapt gui [Main]
       "21":
         material: BLAZE_ROD
         customdata: 7
@@ -61,6 +64,7 @@ panels:
           - "   &3Version: &61.20.6"
           - "   &3Type: &6MMORPG"
           - "   &3Plugins:"
+          - "     &8- &6Adapt"
           - "     &8- &6AxGraves"
           - "     &8- &6BestTools"
           - "     &8- &6ChestSort"
