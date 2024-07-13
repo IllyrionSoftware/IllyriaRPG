@@ -92,10 +92,23 @@ panels:
         name: "&6&lUseful Cmds"
         lore:
           - ""
-          - "&8✖ &7Information:"
+          - "&8✖ &7List of Useful Cmds and their Description:"
+          - "   &3/rtp"
+          - "       &6> &7&oRandom Teleport in current world"
           - "   &3/rtp [world]"
+          - "       &6> &7&oRandom Teleport in specified world"
+          - "   &3/home"
+          - "       &6> &7&oTeleport to your town's spawn"
+          - "   &3/skills"
+          - "       &6> &7&oOpens up the Skills GUI"
           - "   &3/recipies"
+          - "       &6> &7&oOpens up the Recipe Book"
           - "   &3/unload"
+          - "       &6> &7&oUnloads your inventory"
+          - "   &3/bt"
+          - "       &6> &7&oOpens up the BestTools GUI"
+          - "   &3/tpa [player]"
+          - "       &6> &7&oRequest to teleport to a player"
   dimensions:
     perm: default
     rows: 4
@@ -129,18 +142,23 @@ panels:
         stack: 1
         name: "&4&lThe Underworld"
         lore:
-          - "&8▶ &7Click the item to rtp &8◀"
+          - "&8▶ &cREQUIREMENTS NOT MET &8◀"
           - ""
-          - "&8✖ &7Information:"
-          - "   &3Environment: &6normal"
-          - "   &3Gamemode: &dSURVIVAL"
-          - "   &3Size: &63200&8x&63200"
-          - "   &3Difficulty: &4HARD"
-          - "   &3Claims: &cFalse"
-          - "   &3PVP: &aTrue"
+          - "&8✖ &7Reason:"
+          - "   &3Your current PLevel: &c%adapt_player_level% &3>= &620"
         has0:
           value0: "%adapt_player_level%"
           compare0: "20 ISGREATER"
+          lore:
+            - "&8▶ &7Click the item to rtp &8◀"
+            - ""
+            - "&8✖ &7Information:"
+            - "   &3Environment: &6normal"
+            - "   &3Gamemode: &dSURVIVAL"
+            - "   &3Size: &63200&8x&63200"
+            - "   &3Difficulty: &4HARD"
+            - "   &3Claims: &cFalse"
+            - "   &3PVP: &aTrue"
           commands:
             - delay= 60 console= rt %cp-player-name% dim_underworld
       "15":
@@ -149,18 +167,23 @@ panels:
         stack: 1
         name: "&5&lThe Endworld"
         lore:
-          - "&8▶ &7Click the item to rtp &8◀"
+          - "&8▶ &cREQUIREMENTS NOT MET &8◀"
           - ""
-          - "&8✖ &7Information:"
-          - "   &3Environment: &6normal"
-          - "   &3Gamemode: &dSURVIVAL"
-          - "   &3Size: &63200&8x&63200"
-          - "   &3Difficulty: &4HARD"
-          - "   &3Claims: &cFalse"
-          - "   &3PVP: &aTrue"
+          - "&8✖ &7Reason:"
+          - "   &3Your current PLevel: &c%adapt_player_level% &3>= &640"
         has0:
           value0: "%adapt_player_level%"
           compare0: "40 ISGREATER"
+          lore:
+            - "&8▶ &7Click the item to rtp &8◀"
+            - ""
+            - "&8✖ &7Information:"
+            - "   &3Environment: &6normal"
+            - "   &3Gamemode: &dSURVIVAL"
+            - "   &3Size: &63200&8x&63200"
+            - "   &3Difficulty: &4HARD"
+            - "   &3Claims: &cFalse"
+            - "   &3PVP: &aTrue"
           commands:
             - delay= 60 console= rt %cp-player-name% dim_endworld
       "27":

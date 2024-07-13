@@ -23,3 +23,12 @@ CustomAlias:
   discord:
     Cmds:
       - asConsole! cmi msg [playerName] &a&nhttps://discord.gg/CWy6JxNXP4
+  dims:
+    Cmds:
+      - dims
+  skills:
+    Cmds:
+      - adapt gui [Main]
+  home:
+    Cmds:
+      - lands spawn
