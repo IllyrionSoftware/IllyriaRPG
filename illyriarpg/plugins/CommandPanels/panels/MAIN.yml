@@ -141,8 +141,8 @@ panels:
         has0:
           value0: "%adapt_player_level%"
           compare0: "20 ISGREATER"
-        commands:
-          - delay= 60 console= rt %cp-player-name% dim_underworld
+          commands:
+            - delay= 60 console= rt %cp-player-name% dim_underworld
       "15":
         material: BLAZE_ROD
         customdata: 6
@@ -161,8 +161,8 @@ panels:
         has0:
           value0: "%adapt_player_level%"
           compare0: "40 ISGREATER"
-        commands:
-          - delay= 60 console= rt %cp-player-name% dim_endworld
+          commands:
+            - delay= 60 console= rt %cp-player-name% dim_endworld
       "27":
         material: RED_STAINED_GLASS_PANE
         stack: 1
