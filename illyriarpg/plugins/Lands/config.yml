@@ -168,7 +168,7 @@ general:
       support: 0
 
   # Should players with the permission (lands.admin) be notified that there is a new update available?
-  upd-notify: false
+  upd-notify: true
 
 # General options for economic tasks, that apply to taxes, upkeep and nation upkeep.
 # Each task has it's own section, in this file and nations.yml, with specified options.
@@ -999,7 +999,7 @@ integration:
     items:
       # If enabled, only items that have the same name, lore etc. will belong to the currency.
       # Not just items of the same type or items with the same model-data.
-      strict: false
+      strict: true
 
 # You most likely don't need to edit this section.
 entities:

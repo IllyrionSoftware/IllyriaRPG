@@ -6,7 +6,7 @@
 # NOTE: A server reload or restart is required for any changes of this file to take effect.
 
 land:
-  enabled: true
+  enabled: false
   categories:
     members:
       enabled: true
