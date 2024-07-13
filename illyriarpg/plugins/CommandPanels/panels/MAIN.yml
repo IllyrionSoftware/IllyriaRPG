@@ -138,8 +138,10 @@ panels:
           - "   &3Difficulty: &4HARD"
           - "   &3Claims: &cFalse"
           - "   &3PVP: &aTrue"
+        has0:
+          value0: "%adapt_player_level%"
+          compare0: "20 ISGREATER"
         commands:
-          - "check: %adapt_player_level% >= 20"
           - delay= 60 console= rt %cp-player-name% dim_underworld
       "15":
         material: BLAZE_ROD
@@ -156,8 +158,10 @@ panels:
           - "   &3Difficulty: &4HARD"
           - "   &3Claims: &cFalse"
           - "   &3PVP: &aTrue"
+        has0:
+          value0: "%adapt_player_level%"
+          compare0: "40 ISGREATER"
         commands:
-          - "check: %adapt_player_level% >= 40"
           - delay= 60 console= rt %cp-player-name% dim_endworld
       "27":
         material: RED_STAINED_GLASS_PANE
