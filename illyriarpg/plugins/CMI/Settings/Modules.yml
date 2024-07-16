@@ -179,7 +179,7 @@ schedule: true
 #
 # Handles player name plates
 # Applies for servers from 1.7.x and up
-namePlates: true
+namePlates: false
 #
 # Handles jail system
 # Applies for servers from 1.7.x and up
