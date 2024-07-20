@@ -141,7 +141,7 @@ panels:
           - "   &3Your current PLevel: &c%adapt_player_level% &3>= &620"
         has0:
           value0: "%adapt_player_level%"
-          compare0: "20 ISGREATER"
+          compare0: "25 ISGREATER"
           lore:
             - "&8▶ &7Click the item to rtp &8◀"
             - ""
@@ -166,7 +166,7 @@ panels:
           - "   &3Your current PLevel: &c%adapt_player_level% &3>= &640"
         has0:
           value0: "%adapt_player_level%"
-          compare0: "40 ISGREATER"
+          compare0: "50 ISGREATER"
           lore:
             - "&8▶ &7Click the item to rtp &8◀"
             - ""
