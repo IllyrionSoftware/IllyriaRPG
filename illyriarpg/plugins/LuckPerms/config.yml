@@ -254,18 +254,18 @@ broadcast-received-log-entries: true
 # Port 6379 is used by default; set address to "host:port" if differs
 redis:
   enabled: false
-  address: eu02-sql.pebblehost.com
-  username: customer_430465_luckperms
-  password: "%339B9nYaQzH@9pP"
+  address: ""
+  username: ""
+  password: ""
 
 # Settings for RabbitMQ.
 # Port 5672 is used by default; set address to "host:port" if differs
 rabbitmq:
   enabled: false
-  address: eu02-sql.pebblehost.com
+  address: ""
   vhost: "/"
-  username: customer_430465_luckperms
-  password: "%339B9nYaQzH@9pP"
+  username: ""
+  password: ""
 
 # +----------------------------------------------------------------------------------------------+ #
 # |                                                                                              | #
