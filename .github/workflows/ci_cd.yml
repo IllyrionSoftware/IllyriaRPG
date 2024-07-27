@@ -4,7 +4,6 @@ run-name: "Xodium CI/CD"
 on:
   push:
     branches: [main]
-    paths: ["illyriarpg/**"]
   workflow_dispatch:
 
 permissions:
