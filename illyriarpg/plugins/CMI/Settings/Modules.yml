@@ -35,7 +35,7 @@ cuffed: false
 #
 # Handling of elevators
 # Applies for servers from 1.7.x and up
-elevator: false
+elevator: true
 #
 # Handling of night speedup when players sleep in beds
 # Applies for servers from 1.7.x and up
