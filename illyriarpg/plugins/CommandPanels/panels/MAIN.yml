@@ -52,35 +52,6 @@ panels:
           - "   &7Shortcut: &6/skills"
         commands:
           - adapt gui [Main]
-      "21":
-        material: BLAZE_ROD
-        customdata: 7
-        stack: 1
-        name: "&6&lServer Info"
-        lore:
-          - ""
-          - "&8✖ &7Information:"
-          - "   &3Version: &61.20.6"
-          - "   &3Type: &6RPG"
-          - "   &3Plugins:"
-          - "     &8- &6Adapt"
-          - "     &8- &6AxGraves"
-          - "     &8- &6BestTools"
-          - "     &8- &6ChatEmojis"
-          - "     &8- &6ChestSort"
-          - "     &8- &6CMI"
-          - "     &8- &6CMILib"
-          - "     &8- &6CommandPanels"
-          - "     &8- &6DoorsReloaded"
-          - "     &8- &6FastAsyncWorldEdit"
-          - "     &8- &6InvUnload"
-          - "     &8- &6Lands"
-          - "     &8- &6LevelledMobs"
-          - "     &8- &6LuckPerms"
-          - "     &8- &6PhantomWorlds"
-          - "     &8- &6PlaceholderAPI"
-          - "     &8- &6Spark"
-          - "     &8- &6WildRegeneration"
       "23":
         material: BLAZE_ROD
         customdata: 8
