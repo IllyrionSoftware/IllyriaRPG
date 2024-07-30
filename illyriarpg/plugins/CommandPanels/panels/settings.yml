@@ -1,0 +1,31 @@
+panels:
+  settings:
+    perm: default
+    rows: 1
+    title: "<gold><bold>Settings"
+    commands:
+      - settings
+    empty: BLACK_STAINED_GLASS_PANE
+    panelType:
+      - unmovable
+    item:
+      "0":
+        material: CHEST
+        customdata: 4
+        stack: 1
+        name: "<gold><bold>Personal"
+        lore:
+          - "<dark_gray>▶ <gray>Click the item to open <dark_gray>◀"
+          - ""
+          - "<dark_gray>✖ <dark_aqua>Opens the ChesSort Settings"
+          - "   <gray>Shortcut: <gold>/sort"
+        commands:
+          - sort
+      "8":
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: "<red><bold>Back"
+        lore:
+          - "<dark_gray>✖ <gray>Go back to previous"
+        commands:
+          - cp faq
