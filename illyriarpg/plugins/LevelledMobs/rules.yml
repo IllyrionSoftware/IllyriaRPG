@@ -518,6 +518,23 @@ custom-rules:
       custom-names: "jeb_"
     settings:
       nametag: "DISABLED"
+
+  - custom-rule: "Mob Drops 1"
+    is-enabled: true
+    conditions:
+      entities:
+        included-list: ["ELDER_GUARDIAN", "ENDER_DRAGON", "WARDEN", "WITHER"]
+    settings:
+      use-droptable-id: enchanted_book-mending-100p
+
+  - custom-rule: "Mob Drops 2"
+    is-enabled: true
+    conditions:
+      entities:
+        included-list: ["GHAST", "GUARDIAN", "RAVAGER"]
+    settings:
+      use-droptable-id: enchanted_book-mending-5p
+
 #
 #   ---------------  -  ------------------------------
 #        Section 05  |  Developer Settings / Do Not Edit Beyond This Point
