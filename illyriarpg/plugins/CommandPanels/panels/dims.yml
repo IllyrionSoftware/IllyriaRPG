@@ -1,0 +1,86 @@
+panels:
+  dimensions:
+    perm: default
+    rows: 4
+    title: "<gold><bold>Dimensions"
+    commands:
+      - dims
+    empty: BLACK_STAINED_GLASS_PANE
+    panelType:
+      - unmovable
+    item:
+      "11":
+        material: BLAZE_ROD
+        customdata: 4
+        stack: 1
+        name: "<green><bold>The Overworld"
+        lore:
+          - "<dark_gray>▶ <gray>Click the item to rtp <dark_gray>◀"
+          - ""
+          - "<dark_gray>✖ <gray>Information:"
+          - "   <dark_aqua>Environment: <gold>large_biomes"
+          - "   <dark_aqua>Gamemode: <light_purple>SURVIVAL"
+          - "   <dark_aqua>Size: <gold>12800<dark_gray>x<gold>12800"
+          - "   <dark_aqua>Difficulty: <dark_red>HARD"
+          - "   <dark_aqua>Claims: <green>True"
+          - "   <dark_aqua>PVP: <green>True"
+        commands:
+          - delay= 60 console= rt %cp-player-name% dim_overworld
+      "13":
+        material: BLAZE_ROD
+        customdata: 5
+        stack: 1
+        name: "<dark_red><bold>The Underworld"
+        lore:
+          - "<dark_gray>▶ <red>REQUIREMENTS NOT MET <dark_gray>◀"
+          - ""
+          - "<dark_gray>✖ <gray>Reason:"
+          - "   <dark_aqua>Your current PLevel: <red>%adapt_player_level% <dark_aqua>>= <gold>25"
+        has0:
+          value0: "%adapt_player_level%"
+          compare0: "25 ISGREATER"
+          lore:
+            - "<dark_gray>▶ <gray>Click the item to rtp <dark_gray>◀"
+            - ""
+            - "<dark_gray>✖ <gray>Information:"
+            - "   <dark_aqua>Environment: <gold>normal"
+            - "   <dark_aqua>Gamemode: <light_purple>SURVIVAL"
+            - "   <dark_aqua>Size: <gold>3200<dark_gray>x<gold>3200"
+            - "   <dark_aqua>Difficulty: <dark_red>HARD"
+            - "   <dark_aqua>Claims: <red>False"
+            - "   <dark_aqua>PVP: <green>True"
+        commands:
+          - delay= 60 console= rt %cp-player-name% dim_underworld
+      "15":
+        material: BLAZE_ROD
+        customdata: 6
+        stack: 1
+        name: "<dark_purple><bold>The Endworld"
+        lore:
+          - "<dark_gray>▶ <red>REQUIREMENTS NOT MET <dark_gray>◀"
+          - ""
+          - "<dark_gray>✖ <gray>Reason:"
+          - "   <dark_aqua>Your current PLevel: <red>%adapt_player_level% <dark_aqua>>= <gold>50"
+        has0:
+          value0: "%adapt_player_level%"
+          compare0: "50 ISGREATER"
+          lore:
+            - "<dark_gray>▶ <gray>Click the item to rtp <dark_gray>◀"
+            - ""
+            - "<dark_gray>✖ <gray>Information:"
+            - "   <dark_aqua>Environment: <gold>normal"
+            - "   <dark_aqua>Gamemode: <light_purple>SURVIVAL"
+            - "   <dark_aqua>Size: <gold>3200<dark_gray>x<gold>3200"
+            - "   <dark_aqua>Difficulty: <dark_red>HARD"
+            - "   <dark_aqua>Claims: <red>False"
+            - "   <dark_aqua>PVP: <green>True"
+        commands:
+          - delay= 60 console= rt %cp-player-name% dim_endworld
+      "27":
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: "<red><bold>Back"
+        lore:
+          - "<dark_gray>✖ <gray>Go back to previous"
+        commands:
+          - cp faq

@@ -1,0 +1,83 @@
+panels:
+  faq:
+    perm: default
+    rows: 4
+    title: "<gold><bold>FAQ"
+    commands:
+      - faq
+    empty: BLACK_STAINED_GLASS_PANE
+    panelType:
+      - unmovable
+    item:
+      "11":
+        material: BLAZE_ROD
+        customdata: 1
+        stack: 1
+        name: "<gold><bold>Lands"
+        lore:
+          - "<dark_gray>▶ <gray>Click the item to open <dark_gray>◀"
+          - ""
+          - "<dark_gray>✖ <dark_aqua>Claim, Protect, and Expand"
+          - "   <gray>Shortcut: <gold>/lands"
+        commands:
+          - lands
+      "13":
+        material: BLAZE_ROD
+        customdata: 2
+        stack: 1
+        enchanted:
+          - true
+        name: "<gold><bold>Dimensions"
+        lore:
+          - "<dark_gray>▶ <gray>Click the item to open <dark_gray>◀"
+          - ""
+          - "<dark_gray>✖ <dark_aqua>Teleport, Explore, and Discover"
+          - "   <gray>Shortcut: <gold>/dims"
+        commands:
+          - cp dimensions
+      "15":
+        material: BLAZE_ROD
+        customdata: 3
+        stack: 1
+        name: "<gold><bold>Adapt"
+        lore:
+          - "<dark_gray>▶ <gray>Click the item to open <dark_gray>◀"
+          - ""
+          - "<dark_gray>✖ <dark_aqua>Leveling, Skills, and Abilities"
+          - "   <gray>Shortcut: <gold>/skills"
+        commands:
+          - adapt gui [Main]
+      "21":
+        material: BLAZE_ROD
+        customdata: 7
+        stack: 1
+        name: "<gold><bold>Settings"
+        lore:
+          - "<dark_gray>▶ <gray>Click the item to open <dark_gray>◀"
+          - ""
+          - "<dark_gray>✖ <dark_aqua>Personal Settings and Preferences"
+          - "   <gray>Shortcut: <gold>/settings"
+        commands:
+          - cp settings
+      "23":
+        material: BLAZE_ROD
+        customdata: 8
+        stack: 1
+        name: "<gold><bold>Useful Cmds"
+        lore:
+          - ""
+          - "<dark_gray>✖ <gray>List of Useful Cmds and their Description:"
+          - "   <dark_aqua>/home"
+          - "       <gold>> <gray><italic>Teleport to your town's spawn"
+          - "   <dark_aqua>/skills"
+          - "       <gold>> <gray><italic>Opens up the Skills GUI"
+          - "   <dark_aqua>/recipies"
+          - "       <gold>> <gray><italic>Opens up the Recipe Book"
+          - "   <dark_aqua>/unload"
+          - "       <gold>> <gray><italic>Unloads your inventory into nearby chests"
+          - "   <dark_aqua>/bt"
+          - "       <gold>> <gray><italic>Toggles the BestTools feature"
+          - "   <dark_aqua>/sort"
+          - "       <gold>> <gray><italic>Opens up the ChestSort GUI"
+          - "   <dark_aqua>/tpa [player]"
+          - "       <gold>> <gray><italic>Request to teleport to a player"
