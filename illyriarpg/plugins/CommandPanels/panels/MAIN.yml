@@ -52,6 +52,18 @@ panels:
           - "   &7Shortcut: &6/skills"
         commands:
           - adapt gui [Main]
+      "21":
+        material: BLAZE_ROD
+        customdata: 7
+        stack: 1
+        name: "&6&lSettings"
+        lore:
+          - "&8▶ &7Click the item to open &8◀"
+          - ""
+          - "&8✖ &3Personal Settings and Preferences"
+          - "   &7Shortcut: &6/settings"
+        commands:
+          - cp settings
       "23":
         material: BLAZE_ROD
         customdata: 8
@@ -151,6 +163,24 @@ panels:
             - "   &3PVP: &aTrue"
           commands:
             - delay= 60 console= rt %cp-player-name% dim_endworld
+      "27":
+        material: RED_STAINED_GLASS_PANE
+        stack: 1
+        name: "&c&lBack"
+        lore:
+          - "&8✖ &7Go back to previous"
+        commands:
+          - cp faq
+  settings:
+    perm: default
+    rows: 4
+    title: "&6&lSettings"
+    commands:
+      - settings
+    empty: BLACK_STAINED_GLASS_PANE
+    panelType:
+      - unmovable
+    item:
       "27":
         material: RED_STAINED_GLASS_PANE
         stack: 1
