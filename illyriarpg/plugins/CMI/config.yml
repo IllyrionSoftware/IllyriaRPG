@@ -137,7 +137,7 @@ Optimizations:
   ArmorStands:
     # When set to true, plugin will check if player can manipulate armor stand by sending fake block place event and checking if any plugin would want to prevent this action
     # This can help out to minimize posibility for players to manipulate armor stands when they dont have build permission in area where armorstand is standing
-    CheckBlockPlace: false
+    CheckBlockPlace: true
     Templates:
       # When set to true player will be required to have cmi.command.armorstand.template.[templatename] permission node to deploy saved template
       SpecificPermission: false
@@ -151,7 +151,7 @@ Optimizations:
   # When enabled you will see beeHive information in action bar when right clicking it
   ShowBeeHiveInformation: true
   # Sets indicator when creating elevator signs. Its case insensitive
-  ElevatorIndicator: "[CMIElevator]"
+  ElevatorIndicator: "[Elevator]"
   SignEdit:
     # Defines sign top line by which player will not be able to edit sign with /cmi se command
     BlackList:
@@ -160,7 +160,7 @@ Optimizations:
       - "[Everyone]"
       - "[AdminShop]"
       - "[ChestShop]"
-      - "[CMIElevator]"
+      - "[Elevator]"
   # Defines elevator type. If this is used on second line of sing, then player will be teleported directly in front of it instead of keeping original players x and z coordinates
   ElevatorStaticIndicator: "[*]"
   # Used to show date in places like mail, checkban, infopage and similar locations
