@@ -23,7 +23,7 @@ TabList:
     Footer:
       "1":
         - ""
-        - "&3Version: &r1.20.6 &6| &3Type: &rRPG &6| &3Weather: &r%cmi_user_weather%"
+        - "&3Version: &r1.21 &6| &3Type: &rRPG &6| &3Weather: &r%cmi_user_weather%"
         - "&6]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|[=]|["
   useGeneralName: true
   useGeneralHeader: true
